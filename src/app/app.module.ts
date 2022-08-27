@@ -74,6 +74,10 @@ import { LyImageCropperModule } from '@alyle/ui/image-cropper';
 import { MinimaLight, MinimaDark } from '@alyle/ui/themes/minima';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { LandingComponent } from './components/landing/landing.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { OurTeamComponent } from './components/our-team/our-team.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
+import { OurProjectsComponent } from './components/our-projects/our-projects.component';
 
 
 @NgModule({
@@ -81,6 +85,10 @@ import { LandingComponent } from './components/landing/landing.component';
     AppComponent,
     NavbarComponent,
     LandingComponent,
+    ContactComponent,
+    OurTeamComponent,
+    AboutUsComponent,
+    OurProjectsComponent,
  
   ], 
   imports: [ 
