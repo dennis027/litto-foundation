@@ -78,7 +78,8 @@ import { ContactComponent } from './components/contact/contact.component';
 import { OurTeamComponent } from './components/our-team/our-team.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { OurProjectsComponent } from './components/our-projects/our-projects.component';
-
+import { LyCarouselModule } from '@alyle/ui/carousel';
+import { LyTypographyModule } from '@alyle/ui/typography';
 
 @NgModule({
   declarations: [
@@ -159,6 +160,8 @@ import { OurProjectsComponent } from './components/our-projects/our-projects.com
       HammerModule,
       LyListModule,
       LyDividerModule,
+      LyCarouselModule,
+      LyTypographyModule,
 
     ReactiveFormsModule.withConfig({warnOnNgModelWithFormControl: 'never'})
 

@@ -1,0 +1,19 @@
+.head1{
+    font-size: 250% ; color: rgb(180, 212, 33);
+}
+mat-card{
+    margin-bottom: 10px;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+  .material-symbols-outlined{
+    color: aliceblue;
+   font-size: 300%;
+    
+  }  
