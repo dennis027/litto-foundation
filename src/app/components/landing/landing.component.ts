@@ -1,6 +1,29 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 import { StyleRenderer, lyl } from '@alyle/ui';
-
+import { ThemeVariables, ThemeRef } from '@alyle/ui';
+import { STYLES as STYLES_BUTTON } from '@alyle/ui/button';
+const STYLES1 = (theme: ThemeVariables, ref: ThemeRef) => {
+  // Make sure button styles have been rendered
+  ref.renderStyleSheet(STYLES_BUTTON);
+  // Get selectors
+  const button = ref.selectorsOf(STYLES_BUTTON);
+  const { after } = theme;
+  return {
+    root: lyl `{
+      ${button.root} {
+        margin-${after}: 1em
+        margin-top: .5em
+        margin-bottom: .5em
+      }
+    }`,
+    row: lyl `{
+      display: flex
+      flex-wrap: wrap
+      margin-bottom: .5em
+      align-items: center
+    }`
+  };
+};
 const STYLES = () => {
   return {
     carousel: () => lyl `{
@@ -66,6 +89,7 @@ export class LandingComponent implements OnInit {
     },
    
   ];
+  readonly classes1 = this.sRenderer.renderSheet(STYLES1, true);
 
   constructor(
     private sRenderer: StyleRenderer

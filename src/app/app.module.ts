@@ -80,6 +80,9 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
 import { OurProjectsComponent } from './components/our-projects/our-projects.component';
 import { LyCarouselModule } from '@alyle/ui/carousel';
 import { LyTypographyModule } from '@alyle/ui/typography';
+import { LyIconModule } from '@alyle/ui/icon';
+
+
 
 @NgModule({
   declarations: [
@@ -162,7 +165,7 @@ import { LyTypographyModule } from '@alyle/ui/typography';
       LyDividerModule,
       LyCarouselModule,
       LyTypographyModule,
-
+      LyIconModule,
     ReactiveFormsModule.withConfig({warnOnNgModelWithFormControl: 'never'})
 
 
