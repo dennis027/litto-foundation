@@ -20,6 +20,7 @@ const STYLES1 = (theme: ThemeVariables, ref: ThemeRef) => {
       display: flex
       flex-wrap: wrap
       margin-bottom: .5em
+      font-size:200px
       align-items: center
     }`
   };

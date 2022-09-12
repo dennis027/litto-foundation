@@ -81,6 +81,7 @@ import { OurProjectsComponent } from './components/our-projects/our-projects.com
 import { LyCarouselModule } from '@alyle/ui/carousel';
 import { LyTypographyModule } from '@alyle/ui/typography';
 import { LyIconModule } from '@alyle/ui/icon';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -93,6 +94,7 @@ import { LyIconModule } from '@alyle/ui/icon';
     OurTeamComponent,
     AboutUsComponent,
     OurProjectsComponent,
+    FooterComponent,
  
   ], 
   imports: [ 

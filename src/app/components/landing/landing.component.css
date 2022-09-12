@@ -22,11 +22,14 @@ mat-card{
   }  
 
   .donate{
-    background-image: url('https://github.com/dennis027/litto-foundation/blob/master/src/assets/photos/litto2.jpeg?raw=true');
+    background-image: url('https://github.com/dennis027/litto-foundation/blob/master/src/assets/photos/litto4.jpeg?raw=true');
     background-attachment: fixed;
     background-size: cover;
     
   }
 #supp{
     color: aliceblue;
+}
+ly-icon{
+  font-size: xx-large;
 }

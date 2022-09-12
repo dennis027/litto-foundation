@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { FooterComponent } from './components/footer/footer.component';
 import { LandingComponent } from './components/landing/landing.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { OurProjectsComponent } from './components/our-projects/our-projects.component';
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path:'our-team',component:OurTeamComponent},
   {path:'projects',component:OurProjectsComponent},
   {path:'about-us',component:AboutUsComponent},
+  {path:'footer',component:FooterComponent}
 ];
 
 @NgModule({
