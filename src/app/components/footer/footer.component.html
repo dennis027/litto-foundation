@@ -2,36 +2,40 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-2">
-          <a href="home"> <img src="./assets/photos/mwangaza-black.png" alt="" width="100%"></a>
+          <a href="home"> <img src="./assets/photos/littologo.png" alt="" width="50%"></a>
         </div>
         <div class="col-md-10">
           <div class="container-fluid">
             <div class="row">
               <div class="col-md-4" style="color: blue;" >
-                <a href="projects" mat-button class="d">       
-                  <mat-icon></mat-icon>
-                  <b style="font-size: larger;"> Our Projects</b>
-                </a> <br>
-                <a href="mission" mat-button class="d">       
-                  <mat-icon></mat-icon>
-                  <b style="font-size: larger;">Our Mission</b>
-                </a>
-                  <br>
-             
-                <a href="contact" mat-button class="b">
-                  <mat-icon></mat-icon>
-                  <b style="font-size: larger;">Contacts</b>
-                </a>  
+                <mat-nav-list  >
+                  <a href="about-us" mat-list-item >
+                    <mat-icon></mat-icon> 
+                    About Us
+                  </a> 
+                  <a href="projects" mat-list-item>
+                    <mat-icon></mat-icon>
+                    Projects</a>
+                  <a href="our-team" mat-list-item>
+                      <mat-icon></mat-icon>
+                      Our Team</a>
+                  <a href="contact" mat-list-item>
+                    <mat-icon></mat-icon>
+                    Contacts
+                  </a>
+                 
+                 
+                </mat-nav-list>
              
               </div>
               <div class="col-md-4">
-                <h1 style="font-size: larger;"> <b>Contact Us</b></h1>
-                <ul style="font-size: larger;">
-                  <li style="font-size: larger;">Locaton:</li>
+                <h4> <b>Contact Us</b></h4>
+                <ul>
+                  <li>Locaton:</li>
                   <br>
-                  <li style="font-size: larger;">Tell No:</li>
+                  <li>Tell No:</li>
                   <br>
-                  <li style="font-size: larger;">Email:</li>
+                  <li>Email:</li>
                 </ul>
               </div>
               <div class="col-md-4">
@@ -47,5 +51,6 @@
   </div>
   
   <div class="year">
-    <div class="text-center"><b>Mwangaza Little Readers® 2022</b></div>
+    <div class="text-center"><b>Litto Foundation ® {{CurrentYear}} </b></div>
   </div>
+ 
