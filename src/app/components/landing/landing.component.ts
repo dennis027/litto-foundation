@@ -30,17 +30,18 @@ const STYLES = () => {
     carousel: () => lyl `{
       margin: auto
       // responsive
-      max-width: 540px
-      height: 50vh
-      min-height: 220px
-      max-height: 320px
+   
+      height: 70vh
+      // min-height: 220px
+      // max-height: 320px
     }`,
     carouselItem: () => lyl `{
       display: flex
       text-align: center
       justify-content: flex-end
       align-items: center
-      height: 100%
+      // width:100%
+      // height: 100%
       flex-direction: column
       padding: 1em 1em 48px
       box-sizing: border-box
