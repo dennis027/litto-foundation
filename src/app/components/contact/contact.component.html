@@ -1,4 +1,125 @@
 <app-navbar></app-navbar>
-<p>contact works!</p>
+<br>
+<div class="container-fluid">
+    <ly-carousel [withClass]="classes.carousel" >
+        <ly-carousel-item
+          *ngFor="let item of items"
+          [withClass]="classes.carouselItem"
+          [srcImg]="item.img"
+        >
+          <h1 class="head1" [lyTyp]="'headline'" gutter:any>{{ item.title }}</h1>
+          <h1 style="font-size:x-large" [lyTyp]="'body1'" gutter:any>
+        Only Small Things with Great Love
+          </h1>
+        </ly-carousel-item>
+      </ly-carousel>
+    
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2"></div> 
+    <div class="col-md-8">
+      <br><br>
+      <h1 class="text-center" style="color: blue;">Welcome To Litto Foundation!</h1>
+      <br>
+      <h3 class="text-center">The Litto Foundation is Kenyan Youth Project that is involved in Charity Works and Mentorship .</h3>
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row" >
+      <br>
+      <div class="col-md-4">
+    
+        <mat-card style="background-color: red;" class="text-center">    <br><br><span class="material-symbols-outlined " >library_books</span>
+        <p style="color: white;">The Litto Foundation Provides reading Materials for Less Fortunate schools and Orphanage</p>
+        </mat-card>
+        
+      </div>
+      <div class="col-md-4">
+        <mat-card style="background-color: orange;"class="text-center">    <br><br><span class="material-symbols-outlined">cooking </span>
+          <p style="color: white;">The Litto Foundation Provides cooking Materials for Children also we cook for street children </p>
+        </mat-card>
+      </div>
+      <div class="col-md-4">
+        <mat-card style="background-color: rgb(98, 106, 226);" class="text-center">    <br><br><span class="material-symbols-outlined">accessibility_new</span>
+          <p style="color: white;">The Litto Foundation is involved in Giving student and advising them on various carrer opportunities</p>
+        </mat-card>
+      </div>
+      <br>
+    </div>
+  </div>
+  <br><br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <h1 class="text-center">The Litto Foundation Current State</h1>
+        <br>
+        <p class="text-center"> The Litto Foundation has been able to achieve some milestones as summarized below</p>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="row">
+          <div class="col-md-3">
+            <span class="material-symbols-outlined" style="color: black;"> heart_plus </span>
+          </div>
+          <div class="col-md-9">
+            <h4 class="text-center">2200+ Students Assisted</h4>
+            <p class="text-center">The Litto foundation has made assumptions about 2200 children that have benefited from our programs through programs like motivating students and less fortunate,buying basic commodities for less fortunate.
+            </p> 
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="row">
+          <div class="col-md-3">
+            <span class="material-symbols-outlined" style="color: black;">   book </span>
+          </div>
+          <div class="col-md-9">
+            <h4 class="text-center"> 350+ Books Given</h4>
+            <p class="text-center"> The foundation capitalizes on raising money for more books and has been able to raise over 350 books which are vital ingredients for the student to learn new skills and enhance them
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="row">
+          <div class="col-md-3">
+            <span class="material-symbols-outlined" style="color: black;"> breakfast_dining  </span>
+          </div>
+          <div class="col-md-9">
+            <h4 class="text-center">100+ Feeding Programs</h4>
+            <p class="text-center">The foundation accomplishes the promgram throught two methods </p>
+            <ol>
+              <li>Buying basic requirements Eg Rice, Wheat ,Maize flour</li>
+              <li>Cooking for street children as a show of love and care</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>   
+  </div>
+  <br><br>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="donate">
+        <br><br><br><br><br>
+        <h1 class="text-center" id="supp">Support Our Foundation</h1>
+        <br><br>
+        <h1 class="text-center">     <button ly-button appearance="icon" color="warn" outlined><ly-icon>favorite</ly-icon></button></h1>
+   
+        <br><br><br><br><br>
+      </div>
+    </div>
+  </div>
+</div>
+<br><br><br>
+
 
 <app-footer></app-footer>
