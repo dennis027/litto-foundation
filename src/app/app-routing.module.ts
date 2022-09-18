@@ -10,12 +10,12 @@ import { OurTeamComponent } from './components/our-team/our-team.component';
 
 const routes: Routes = [
   {path:'navbar',component:NavbarComponent},
-  {path:'home',component:AboutUsComponent},
-  // {path:"",component:LandingComponent},
+  {path:'home',component:LandingComponent},
+  {path:"",component:LandingComponent},
   {path:'contact',component:ContactComponent},
   {path:'our-team',component:OurTeamComponent},
   {path:'projects',component:OurProjectsComponent},
-  {path:'about-us',component:LandingComponent},
+  {path:'about-us',component:AboutUsComponent},
   {path:'footer',component:FooterComponent}
 ];
 
