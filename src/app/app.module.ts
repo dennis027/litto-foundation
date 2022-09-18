@@ -83,7 +83,7 @@ import { LyTypographyModule } from '@alyle/ui/typography';
 import { LyIconModule } from '@alyle/ui/icon';
 import { FooterComponent } from './components/footer/footer.component';
 
-
+import { MatCarouselModule } from '@ngmodule/material-carousel';
 
 @NgModule({
   declarations: [
@@ -147,7 +147,7 @@ import { FooterComponent } from './components/footer/footer.component';
     MatDatepickerModule,
     MatTooltipModule,
     ToastrModule.forRoot(),
-    // MatCarouselModule.forRoot(),
+   // MatCarouselModule.forRoot()
     BrowserAnimationsModule, 
     NgbModule,
     ReactiveFormsModule,
